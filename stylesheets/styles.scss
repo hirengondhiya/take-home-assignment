@@ -40,6 +40,21 @@ body {
     margin-top: 15px;
     border: solid 1px $color-light-grey2;
     box-shadow: 0px 2px 2px 0px #efeded;
+
+    .contents {
+      font-size: 13px;
+      line-height: 20px;
+      color: $color-dark-grey2;
+      p > span {
+        font-weight: bold;
+      }
+      .days {
+        margin: 10px 0;
+        & > span {
+          color: $color-orange;
+        }
+      }
+    }
   }
 }
 
