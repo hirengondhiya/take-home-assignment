@@ -47,7 +47,6 @@ body {
     .contents {
       font-size: 13px;
       line-height: 20px;
-      color: $color-dark-grey2;
       p > span {
         font-weight: bold;
       }
@@ -149,7 +148,9 @@ body {
 .text--grey {
   color: #858585;
 }
-
+.text--dark-grey2 {
+  color: $color-dark-grey2;
+}
 .button--green {
   background-color: #1dbc2c;
 }
