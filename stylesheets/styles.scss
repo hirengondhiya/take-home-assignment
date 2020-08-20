@@ -1,6 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400&display=swap");
+@import "node_modules/normalize.css/normalize";
 
 $color-dark-greay: #424242;
+$color-orange: #ef5f3c;
+$color-light-grey: #fafafa;
+$color-light-grey2: #DDDDDD;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
 body {
   display: flex;
@@ -23,20 +33,33 @@ body {
 
     .arrow {
       position: relative;
-      top: 41px
+      top: 41px;
     }
   }
   .card-body {
-    padding: 15px;
+    margin-top: 15px;
+    border: solid 1px $color-light-grey2;
+    box-shadow: 0px 2px 2px 0px #efeded;
   }
 }
 
-.fill {
-  background-color: #ef5f3c;
+.contents {
+  padding: 13px;
+}
+
+.progress-bar {
+  background-color: $color-light-grey;
+  border-bottom: solid 1px $color-light-grey2;
+  // box-shadow: ;
+  .progress-bar-fill {
+    height: 12px;
+    width: 70%;
+    background-color: $color-orange;
+  }
 }
 
 .text--orange {
-  color: #ef5f3c;
+  color: $color-orange;
 }
 
 .text--blue {
@@ -59,13 +82,13 @@ body {
   background-color: #1dbc2c;
 }
 .button--light-grey {
-  background-color: #fafafa;
+  background-color: $color-light-grey;
 }
 
 .arrow-down {
-    width: 0px;
-    height: 0px;
-    border-left: 7px solid transparent;
-    border-right: 7px solid transparent;
-    border-top: 7px solid $color-dark-greay;
+  width: 0px;
+  height: 0px;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  border-top: 7px solid $color-dark-greay;
 }
