@@ -23,16 +23,20 @@
             Join the <span>42</span> other donors who have already supported
             this project. Every donor helps.
           </p>
-          <form action="/donate" method="POST">
-            <input
-              type="number"
-              name="donation"
-              id="donation"
-              value="50"
-              min="1"
-            />
-            <input type="submit" value="Give Now" />
-            <a href="/why-donate">Why give $<span>50</span> </a>
+          <form class="donate" action="/">
+            <span>
+              $<input
+                type="number"
+                name="donation"
+                id="donation"
+                value="50"
+                min="1"
+              />
+            </span>
+            <input class="button-give" type="submit" value="Give Now" />
+            <a class="link text--blue" href="/why-donate"
+              >Why give $<span>50</span>
+            </a>
           </form>
         </div>
       </div>
