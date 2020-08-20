@@ -7,29 +7,35 @@
   </head>
   <body>
     <div class="card">
-      <div class="card--title text--off-white"><span>$167</span> still needed for this project
+      <div class="card--title text--off-white">
+        <span>$167</span> still needed for this project
         <span class="arrow arrow-down"></span>
       </div>
-      <div>
-        <div></div>
-      </div>
       <div class="card-body">
-        <p class="days"><span class="text-orange">only 3 days left</span> to fund this project.</p>
-        <p>
-          Join the <span>42</span> other donors who have already supported this
-          project. Every donor helps.
-        </p>
-        <form action="/donate" method="POST">
-          <input
-            type="number"
-            name="donation"
-            id="donation"
-            value="50"
-            min="1"
-          />
-          <input type="submit" value="Give Now" />
-          <a href="/why-donate">Why give $<span>50</span> </a>
-        </form>
+        <div class="progress-bar">
+          <div class="progress-bar-fill"></div>
+        </div>
+        <div class="contents">
+          <p class="days">
+            <span class="text-orange">only 3 days left</span> to fund this
+            project.
+          </p>
+          <p>
+            Join the <span>42</span> other donors who have already supported
+            this project. Every donor helps.
+          </p>
+          <form action="/donate" method="POST">
+            <input
+              type="number"
+              name="donation"
+              id="donation"
+              value="50"
+              min="1"
+            />
+            <input type="submit" value="Give Now" />
+            <a href="/why-donate">Why give $<span>50</span> </a>
+          </form>
+        </div>
       </div>
       <div>
         <button>save for later</button>
