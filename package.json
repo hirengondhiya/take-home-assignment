@@ -1,0 +1,19 @@
+{
+  "name": "abco-products",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel -p 3000 index.html",
+    "build": "parcel build index.html -d public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "parcel": "1.12.4"
+  },
+  "devDependencies": {
+    "node-sass": "4.14.1"
+  }
+}
