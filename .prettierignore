@@ -2,3 +2,6 @@
 build
 coverage
 dist
+index.html
+src.*.js
+src.*.css
