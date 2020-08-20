@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Abco Products</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="card--title text--off-white"><span>$167</span> still needed for this project
+        <span class="arrow arrow-down"></span>
+      </div>
+      <div>
+        <div></div>
+      </div>
+      <div class="card-body">
+        <p class="days"><span class="text-orange">only 3 days left</span> to fund this project.</p>
+        <p>
+          Join the <span>42</span> other donors who have already supported this
+          project. Every donor helps.
+        </p>
+        <form action="/donate" method="POST">
+          <input
+            type="number"
+            name="donation"
+            id="donation"
+            value="50"
+            min="1"
+          />
+          <input type="submit" value="Give Now" />
+          <a href="/why-donate">Why give $<span>50</span> </a>
+        </form>
+      </div>
+      <div>
+        <button>save for later</button>
+        <button>tell your friends</button>
+      </div>
+    </div>
+    <script src="./index.js"></script>
+  </body>
+</html>
