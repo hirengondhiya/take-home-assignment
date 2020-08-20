@@ -4,7 +4,7 @@ I was given below design of a component in form of png image which needs to be b
 
 ![design](image001.png)
 
-The output can be viewed [here](https://hirengondhiya.github.io/take-home-assignment/)
+The output can be viewed [here](https://hirengondhiya.github.io/take-home-assignment/index.html)
 
 I have used following
 
